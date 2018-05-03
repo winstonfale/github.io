@@ -3,7 +3,7 @@
     <div class="view">
 
     <!--Video source-->
-    <video class="video-intro" autoplay loop>
+    <video class="video-intro" id="header-video" autoplay loop>
       <source src="https://storage.googleapis.com/coverr-main/mp4/Dc.mp4" type="video/mp4" />
     </video>
 
@@ -470,6 +470,9 @@ export default {
   layout: 'master',
   components: {
     AppLogo
+  },
+  mounted(){
+      document.getElementById('header-video').play();
   }
 }
 </script>
