@@ -1,0 +1,8 @@
+<template>
+  <h1>Notes</h1>
+</template>
+<script>
+export default {
+     layout: 'master',
+}
+</script>
