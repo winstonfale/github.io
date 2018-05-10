@@ -87,9 +87,9 @@ export default {
           name: 'Norfolk Trailers',
           url: 'http://www.norfolktrailers.co.uk/',
           urlProxy: '',
-          description: ' Saving a location of via google map (with time sechedule and task) and also ability to share your location information via major social media platforms',
+          description: 'Sole Distributors for Ifor Williams Trailers in Norfolk',
           imageUrl: 'https://image.ibb.co/m9HR4S/norflok.png',
-          tools: 'Laravel 5.2 +  VueJs 1 + Bootstrap 3 + Jquery + Mysql + Google Api'
+          tools: 'Laravel 5.2 + Bootstrap 3 + Jquery + Mysql + Google Analytics'
         },
         {
           name: 'Axis Claims Insurance',
