@@ -1,157 +1,70 @@
+<style scoped>
+.justify-text {
+  text-align: justify
+}
+
+
+.c-indianred {
+  color: indianred
+}
+
+</style>
+
 <template>
-  
-   <!--Section: More-->
       <section>
 
-        <h2 class="my-5 h3 text-center">Material Design Bootstrap</h2>
-
-        <!--First row-->
+        <h2 class="my-5 h3 text-center">Thank you :)</h2>
         <div class="row features-small mt-5 wow fadeIn">
 
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fa fa-firefox fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2 pl-3">
-                <h5 class="feature-title font-bold mb-1">Cross-browser compatibility</h5>
-                <p class="grey-text mt-2">Chrome, Firefox, IE, Safari, Opera, Microsoft Edge - MDB loves all browsers; all browsers love MDB.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
+        <div class="row">
+          <div class="col-lg-4 col-sm3">
 
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
             <div class="row">
               <div class="col-2">
-                <i class="fa fa-level-up fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+                <i class="fa fa-server fa-2x mb-1 indigo-text" aria-hidden="true"></i>
               </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Frequent updates</h5>
-                <p class="grey-text mt-2">MDB becomes better every month. We love the project and enhance as much as possible.
+              <div class="col-10 mb-2 pl-1">
+                <h5 class="feature-title font-bold mb-1"><a href="https://www.heroku.com/" target="_blank">Heroku Server (Hobby Plan) </a></h5>
+                <p class="grey-text mt-2 justify-text">Heroku is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. Our platform is elegant, flexible, and easy to use, offering developers the simplest path to getting their apps to market.
                 </p>
               </div>
             </div>
-            <!--/Grid row-->
           </div>
-          <!--/Grid column-->
 
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fa fa-comments-o fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Active community</h5>
-                <p class="grey-text mt-2">Our society grows day by day. Visit our forum and check how it is to be a part of our family.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
+          <div class="col-lg-4 col-sm3">
 
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
             <div class="row">
               <div class="col-2">
-                <i class="fa fa-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
+                <i class="fab fa-vuejs fa-2x mb-1 green-text" aria-hidden="true"></i>
               </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">jQuery 3.x</h5>
-                <p class="grey-text mt-2">MDB is integrated with newest jQuery. Therefore you can use all the latest features which come along with
-                  it.
+              <div class="col-10 mb-2 pl-1">
+                <h5 class="feature-title font-bold mb-1"><a href="https://nuxtjs.org/" target="_blank">NuxtJS (VueJS Framework) </a></h5>
+                <p class="grey-text mt-2 justify-text">Nuxt.js is a minimal framework for creating Vue.js applications with server side rendering, code-splitting, hot-reloading, static generation and more!
                 </p>
               </div>
             </div>
-            <!--/Grid row-->
           </div>
-          <!--/Grid column-->
+
+          <div class="col-lg-4 col-sm3">
+
+            <div class="row">
+              <div class="col-2">
+                <i class="fab fa-css3-alt fa-2x mb-1 c-indianred" aria-hidden="true"></i>
+              </div>
+              <div class="col-10 mb-2 pl-1">
+                <h5 class="feature-title font-bold mb-1"><a href="https://fezvrasta.github.io/bootstrap-material-design/" target="_blank"> Material Boostrap Design </a></h5>
+                <p class="grey-text mt-2 justify-text">Build responsive, mobile-first projects on the web with the world's most popular Material Design front-end component library.
+                </p>
+              </div>
+            </div>
+          </div>
+
 
         </div>
-        <!--/First row-->
 
-        <!--Second row-->
-        <div class="row features-small mt-4 wow fadeIn">
 
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fa fa-cubes fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Modularity</h5>
-                <p class="grey-text mt-2">Material Design for Bootstrap comes with both, compiled, ready to use libraries including all features as
-                  well as modules for CSS (SASS files) and JS.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fa fa-question fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Technical support</h5>
-                <p class="grey-text mt-2">We care about reliability. If you have any questions - do not hesitate to contact us.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fa fa-th fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Flexbox</h5>
-                <p class="grey-text mt-2">MDB fully supports Flex Box. You can forget about alignment issues.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fa fa-file-code-o fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">SASS files</h5>
-                <p class="grey-text mt-2">Arranged and well documented .scss files can't wait until you compile them.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
 
         </div>
-        <!--/Second row-->
-
       </section>
 
 </template>

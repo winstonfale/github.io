@@ -31,22 +31,22 @@
         <!-- Right -->
         <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item">
-            <a href="#" class="nav-link" target="_blank">
+            <a href="https://www.facebook.com/Tonzscifer" class="nav-link" target="_blank">
               <i class="fa fa-facebook"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" target="_blank">
+            <a href="https://twitter.com/tonz_scifer" class="nav-link" target="_blank">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" target="_blank">
+            <a href="https://github.com/tonz341" class="nav-link" target="_blank">
               <i class="fa fa-github mr-2"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link" target="_blank">
+            <a href="https://stackoverflow.com/users/6356140/winston-fale" class="nav-link" target="_blank">
               <i class="fa fa-stack-overflow"></i>
             </a>
           </li>

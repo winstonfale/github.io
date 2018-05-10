@@ -3,9 +3,6 @@
 
   <video-div></video-div>
     <div class="container">
-
-      <hr class="my-5">
-
       <section class="mt-5 wow fadeIn">
         <Portfolio></Portfolio>
       </section>
