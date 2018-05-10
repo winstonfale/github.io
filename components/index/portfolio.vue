@@ -71,8 +71,8 @@
                   <i class="fab fa-digital-ocean"></i> Digital Ocean, 
                   <i class="fab fa-node-js"></i> Node Express, 
                   <i class="fab fa-node"></i> Node JS, 
-                  
 
+                  <i class="fab fa-react"></i> React JS, 
                   <i class="fab fa-react"></i> React-Native, 
                   <i class="fas fa-plug"></i> SocketIO, 
 
