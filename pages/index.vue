@@ -10,7 +10,7 @@
       <hr class="my-5">
 
       <section class="mt-5 wow fadeIn">
-        <h2 class="my-5 h3 text-center">Projects had been worked</h2>
+        <h2 class="my-5 h3 text-center">Projects</h2>
         <card-section v-for="(website,index) in websites" :contents="website" :key="index"></card-section>
       </section>
 
@@ -43,6 +43,22 @@ export default {
   data(){
     return{
       websites: [
+         {
+          name: 'PixInPics',
+          url: 'https://www.pixin.pics/',
+          urlProxy: '',
+          description: 'Websites monitoring system. Will send alert notificaion via email, slack or telegram is something wrong with your registered website',
+          imageUrl: 'https://i.ibb.co/RH8dQ6p/pixinpics.png',
+          tools: 'Laravel 5.5+  VueJs2 + Bootstrap 3 + Mysql + Node Express + WhoIsApi + Google 2fa + Stripe + API endpoints'
+        },
+        {
+          name: 'FeedbackExpert',
+          url: 'https://feedbackexpert.pro/',
+          urlProxy: '',
+          description: 'Enable clients to give feedbacks to your Customer Representatives to fixing their problem, also site provides statistics for CSR`s performance ',
+          imageUrl: 'https://i.ibb.co/xGGJmV9/f8.png',
+          tools: 'Laravel 5.3+  VueJs 2 + Bootstrap 3 +Jquery + Jquery Graph'
+        },
         {
           name: 'The Honest Survey (US only)',
           url: 'http://www.thehonestsurvey.com',

@@ -72,12 +72,14 @@
                   <i class="fab fa-node-js"></i> Node Express, 
                   <i class="fab fa-node"></i> Node JS, 
 
-                  <i class="fab fa-react"></i> React JS, 
-                  <i class="fab fa-react"></i> React-Native, 
+                  <!-- <i class="fab fa-react"></i> React JS,  -->
+                  <!-- <i class="fab fa-react"></i> React-Native,  -->
                   <i class="fas fa-plug"></i> SocketIO, 
 
                   <i class="fab fa-git"></i> Bitbucket, 
                   <i class="fab fa-github"></i> Github 
+
+                   <i class="fas fa-server"></i> Nginx Server, 
                 </p>
               </div>
             </div>

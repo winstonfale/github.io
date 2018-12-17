@@ -13,7 +13,7 @@
 <template>
       <section>
 
-        <h2 class="my-5 h3 text-center">Thank you :)</h2>
+        <h2 class="my-5 h3 text-center">Powered by:</h2>
         <div class="row features-small mt-5 wow fadeIn">
 
         <div class="row">
