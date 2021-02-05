@@ -26,6 +26,7 @@ module.exports = {
     ],
   },
 
+  // modules: ['@nuxt/http'],
 
   // plugins: ['~static/js/jquery-3.2.1.min.js'],
 
@@ -35,6 +36,10 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    modules: [
+      '@nuxt/http',
+    ],
+  
     /*
     ** Run ESLint on save
     */
