@@ -111,9 +111,12 @@ export default {
 
           async getRequest(){
 
-               axios.get('https://phisix-api4.appspot.com/stocks/'+this.code+'.json')
+               const headers = {
+                    'Content-Type': 'text/plain',
+               };
+
+               axios.get('http://phisix-api4.appspot.com/stocks/'+this.code+'.json', {} , headers)
                     .then( (response) => {
-                    // handle success
                          this.stocks = response.data.stock[0];
                          this.last_update = response.data.as_of
                          this.countdown = 30;
