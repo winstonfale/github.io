@@ -1,6 +1,6 @@
 <template>
 <div class="row" style="padding: 10px" v-if="passed">
-  <div class="col-md-2 col-sm-3 col-xs-4" v-for="(list,index) in lists" :key="index">
+  <div class="col-md-2" v-for="(list,index) in lists" :key="index">
     <cards :delay="index" :code="list.code" :avg="list.avg" :shares="list.shares"> </cards>
   </div>
 </div>
@@ -14,7 +14,7 @@ export default {
     data(){
       return {
         password: 'dG9ueg==',
-        passed: false,
+        passed: true,
         lists: [
           { code: 'DITO', avg: 11.5532, shares: 7200 },
           { code: 'ACEN', avg: 6.4590, shares: 3100 },
@@ -27,10 +27,10 @@ export default {
     },
 
     mounted(){
-      var password = prompt("Acess code");
-      if(window.btoa(password) === this.password) {
-        this.passed = true;
-      }
+      // var password = prompt("Acess code");
+      // if(window.btoa(password) === this.password) {
+      //   this.passed = true;
+      // }
     }
 }
 </script>

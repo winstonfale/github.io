@@ -16,16 +16,15 @@
 
 <div class="card ">
       <div class="card-header bg-info">
-         <p><strong>{{ stocks.symbol }}</strong> <span class="pull-right"> {{ countdown }} </span></p>
+        <strong style="font-size:25px">PH:{{ stocks.symbol }} <span class="pull-right" style="font-size:12px">  {{ countdown }} </span></strong> 
      </div>
      
      <div class="card-body">
       <p><strong>Current: P{{ stocks.price.amount }}</strong></p>
       <p><strong>Change: <span :class="{'increased': stocks.percent_change > 0, 'decreased': stocks.percent_change < 0, 'tied': stocks.percent_change == 0 }"> {{ stocks.percent_change }}% </span> </strong></p>
-      <!-- <p><strong>Market Value: <span :class="bought_market_value_class"> {{ current_market_value }}</span> </strong> -->
-      <p><strong>Profit: <span :class="bought_market_value_class"> {{ profit }}</span> </strong>
+      <p style="font-size:25px"><strong><span :class="_bought_market_value_class">  {{ _profit }}  <br /> <i :class="{'fa fa-arrow-up': stocks.percent_change > 0, 'fa fa-arrow-down': stocks.percent_change < 0, 'fa fa-equal': stocks.percent_change == 0 }"></i>  ({{ _bought_change }}%) </span></strong>
      </p>
-      <p>As of: {{ time }} </p>
+      <p> <small>Last update: {{ _time }} </small> </p>
       </div>
   </div>
 </template>
@@ -57,17 +56,17 @@ export default {
      },
 
      computed: {
-          time() {
+          _time() {
                if(!this.last_update) {
                     return 'N/A';
                }
                return new Date(this.last_update).toLocaleString()
           },
 
-          bought_market_value_class() {
+          _bought_market_value_class() {
 
-               let current = (this.stocks.price.amount * this.shares) - ( ((this.stocks.price.amount * this.shares) * 0.009));
-               let bought = (this.avg * this.shares);
+               let current = this._current_price
+               let bought = this._bought_price
 
                if(current > bought) {
                     return 'increased'
@@ -80,14 +79,27 @@ export default {
                return 'tied';
           },
 
-          current_market_value() {
+          _current_price(){
+               return  (this.stocks.price.amount * this.shares) - ( ((this.stocks.price.amount * this.shares) * 0.009));
+          },
+
+          _bought_price(){
+               return (this.avg * this.shares);
+          },
+
+          _current_market_value() {
                return formatter.format((this.stocks.price.amount * this.shares) - ( ((this.stocks.price.amount * this.shares) * 0.009)) )
           },
 
-          profit(){
-               let current = (this.stocks.price.amount * this.shares) - ( ((this.stocks.price.amount * this.shares) * 0.009));
-               let bought = (this.avg * this.shares);
+          _profit(){
+               let current = this._current_price
+               let bought = this._bought_price
+               
                return formatter.format(current - bought);
+          },
+
+          _bought_change() {
+               return (((this._current_price / this._bought_price) * 100) - 100 ).toFixed(2);
           }
      },
 
@@ -122,7 +134,6 @@ export default {
                          this.countdown = 30;
                     })
                     .catch( (error) => {
-                    console.log(error);
                     })
                     .then( () => {
                });
