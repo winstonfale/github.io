@@ -13,8 +13,8 @@ export default {
     layout: '',
     data(){
       return {
-        password: 'dG9ueg==',
-        passed: true,
+        password: 'ZEc5dWVnPT0=',
+        passed: false,
         lists: [
           { code: 'DITO', avg: 11.5532, shares: 7200 },
           { code: 'ACEN', avg: 6.4590, shares: 3100 },
@@ -27,10 +27,10 @@ export default {
     },
 
     mounted(){
-      // var password = prompt("Acess code");
-      // if(window.btoa(password) === this.password) {
-      //   this.passed = true;
-      // }
+      var password = prompt("Acess code");
+      if(window.btoa(window.btoa(password)) === this.password) {
+        this.passed = true;
+      }
     }
 }
 </script>
