@@ -111,7 +111,7 @@ export default {
 
           async getRequest(){
 
-               axios.get('http://phisix-api4.appspot.com/stocks/'+this.code+'.json')
+               axios.get('https://phisix-api4.appspot.com/stocks/'+this.code+'.json')
                     .then( (response) => {
                     // handle success
                          this.stocks = response.data.stock[0];
