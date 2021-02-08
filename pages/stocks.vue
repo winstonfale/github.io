@@ -17,7 +17,7 @@ export default {
         passed: false,
         lists: [
           { code: 'DITO', avg: 11.5532, shares: 7200 },
-          { code: 'ACEN', avg: 6.4590, shares: 3100 },
+          { code: 'ACEN', avg: 6.8953, shares: 6000 },
           { code: 'APL', avg: 0.2149, shares: 190000 },
           { code: 'NOW', avg: 4.2826, shares: 5000 },
           // { code: 'DITO', avg: 11.5532, shares: 7200 },
