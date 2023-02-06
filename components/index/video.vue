@@ -1,9 +1,19 @@
+<style scoped>
+  
+
+  .background{
+    background-image: 'https://ibb.co/qyHfNFD';
+  }
+
+
+</style>
+
 <template>
   <div class="view">
 
     <!--Video source-->
     <video class="video-intro" id="header-video" autoplay="autoplay" loop="loop">
-      <source src="https://storage.googleapis.com/coverr-main/mp4/Dc.mp4" type="video/mp4" />
+      <source src="https://media.istockphoto.com/id/618488436/video/milky-way-over-the-kolsay-lake-in-kazakhstan-mountains.mp4?s=mp4-640x640-is&k=20&c=vpXa7izd3uzRoqfAekRyHiU-cYAtmS_l6XTCv54gQHE=" type="video/mp4" />
     </video>
 
     <!-- Mask & flexbox options-->

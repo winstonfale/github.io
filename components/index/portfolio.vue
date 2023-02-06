@@ -8,7 +8,7 @@
         <div class="row wow fadeIn">
 
           <div class="col-lg-4 col-md-12">
-            <img width="100%" src="https://www.onlinejobs.ph/jobseekers_pictures/Capture77.PNG" />
+            <img width="100%" src="https://i.ibb.co/LYNn6Ws/asd.png" />
           </div>
 
           <!--Grid column-->
@@ -50,6 +50,9 @@
                   
                   <i class="fab fa-php"></i> Php, 
                   <i class="fab fa-css3"></i> Css 3, 
+                  <i class="fab fa-css3"></i> Boostrap, 
+                  <i class="fab fa-css3"></i> Tailwind, 
+                  <i class="fab fa-css3"></i> Bulma, 
 
                   <i class="fas fa-database"></i> Mysql, 
                   <i class="fas fa-database"></i> MariaDB, 
@@ -65,16 +68,17 @@
 
                   <i class="fab fa-connectdevelop"></i> API Website Integration, 
                   <i class="fab fa-git"></i> GitBash, 
-                  
 
                   <i class="fab fa-laravel"></i> Laravel Forge, 
+                  <i class="fab fa-laravel"></i> Laravel Envoyer, 
                   <i class="fab fa-digital-ocean"></i> Digital Ocean, 
-                  <i class="fab fa-node-js"></i> Node Express, 
-                  <i class="fab fa-node"></i> Node JS, 
+                  <i class="fab fa-node-js"></i> Amazon Web Service, 
+                  
 
-                  <!-- <i class="fab fa-react"></i> React JS,  -->
-                  <!-- <i class="fab fa-react"></i> React-Native,  -->
+                  <i class="fab fa-node-js"></i> Cloudflare, 
+
                   <i class="fas fa-plug"></i> SocketIO, 
+                    <i class="fas fa-plug"></i> PusherJS,
 
                   <i class="fab fa-git"></i> Bitbucket, 
                   <i class="fab fa-github"></i> Github 
