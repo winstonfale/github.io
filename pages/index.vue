@@ -44,8 +44,8 @@ export default {
   },
   data(){
     return{
-      websites: [
-        {
+      x: [
+         {
           name: 'GoNaughty NZ',
           url: '',
           urlProxy: '',
@@ -101,6 +101,8 @@ export default {
           imageUrl: 'https://i.ibb.co/qDwvHp1/st.png',
           // tools: 'Laravel 5.5+  VueJs2 + Bootstrap 3 + Mysql + Node Express + WhoIsApi + Google 2fa + Stripe + API endpoints'
         },
+      ],
+      websites: [
          {
           name: 'IndoMatch',
           url: '',
